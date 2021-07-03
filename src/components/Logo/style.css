@@ -1,0 +1,10 @@
+.logo{
+    text-align: center;
+}
+
+.logo a{
+    font-family: 'Tourney', cursive;
+    font-size: 65px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}

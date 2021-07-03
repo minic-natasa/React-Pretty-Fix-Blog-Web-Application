@@ -2,6 +2,7 @@
     display: flex;
     justify-content: space-between;
     margin: 10px 0;
+    font-family: 'Zen Loop', cursive;
 }
 
 
@@ -10,8 +11,8 @@
     display: inline-block;
     margin: 0 10px;
     text-decoration: none;
-    color: #a11c80;
-    font-size: 25px;
+    color: #ff05c0;
+    font-size: 45px;
     letter-spacing: 1.2px;
 }
 
