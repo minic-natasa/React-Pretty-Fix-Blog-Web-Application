@@ -1,0 +1,116 @@
+{
+    "data" : [
+        {
+            "id": 1,
+            "blogCategory": "Skin Care",
+            "blogTitle" : "L’Occitane",
+            "slug": "l-occitane",
+            "postedOn": "July 02, 2021",
+            "author": "Natasa Minic",
+            "blogImage": "IMG_7561-scaled.jpg",
+            "blogText": "Otkrijte L’Occitane kremasto mleko za čišćenje lica koje je obogaćeno shea butterom, odlično je za sve tipove kože, uključujući i osetljivu. Svilenkasta nemasna formula uklanja tešku i vodootpornu šminku u samo jednom potezu. Jedna pumpica je sasvim dovoljna za celo lice i vrat. Osim što uklanja šminku, istovremeno je hrani, i ne ostavlja osjećaj isušenosti i zategnutosti, čini kožu mekšom na dodir, daje joj zdrav sjaj i poštuje prirodnu PH vrednost kože. Odmah nakon nanošenja koža je odlično očišćena, proizvod je uklonio i poslednje ostatke šminke i uklonjen je višak sebuma sa kože."
+        },
+        {
+            "id" : 2,
+            "blogCategory": "Body Care",
+            "blogTitle": "Afrodita Sun Care Tropical",
+            "slug": "afrodita-sun-care-tropical",
+            "postedOn": "May 03, 2021",
+            "author": "Natasa Minic",
+            "blogImage": "IMG_7032-scaled.jpg",
+            "blogText": "Prava poslastica za negu kože tokom leta!  Namenjena za brzo  i intenzivno postizanje preplanulog tena. Miriše na čokoladu, karamelu i kokos, a teksturom podseća baš na pravu marmeladu. Ukoliko imate kožu sklonu alergijama i lako izgorite na suncu, preporučujemo dodatno mazanje kreme sa većim SPF (SPF marmelade je 10). Proizvod ne upija u kožu, ostavlja klizav osećaj i ne pravi problema prilikom razmazivanja. Razmazuje se bez problema i po suvoj i mokroj koži. Ova marmelada podstiče stvaranje melanina, a ne boji kožu, tako da nema opasnosti od ostajanja fleka po telu. Budite oprezni prilikom korišćenja jer može doći do prljanja kupaćeg kostima ili peškira. Proizvod deluje, dovoljno je koristiti je par dana da se brže pocrni, a na kožu deluje prijatno i ne isušuje je."
+        },
+        {
+            "id": 3,
+            "blogCategory": "Perfumes",
+            "blogTitle": "Chanel Tendre",
+            "slug": "chanel-tendre",
+            "postedOn": "April 02, 2021",
+            "author": "Natasa Minic",
+            "blogImage": "IMG_7539-scaled.jpg",
+            "blogText": "Romantični i ružičasti Chance eau Tendre najavljen je kao cvetno-voćna interpretacija Chance EDP izdanja. Harmonija bogate ruže i egzotičnog jasmine u srcu omotana je bazom kremastog belog mošusa dok se kompozicija otvara svežinom grejpfruta i dunje. Klasična i vanvremenska okrugla bočica koja odiše prefinjenošću ukrašena je zlatnim akcentima na novom izdanju. Ženstven i otmen miris će privući pažnju mnogima i učiniće vas prepoznatljivom."
+        },
+        {
+            "id": 4,
+            "blogCategory": "Perfumes",
+            "blogTitle": "Mark Jacobs Pear",
+            "slug": "mark-jacobs",
+            "postedOn": "January 02, 2021",
+            "author": "Natasa Minic",
+            "blogImage": "IMG_7530-scaled.jpg",
+            "blogText": "Inspirisani originalnom Splash kolekcijom, Pear predstavlja jedan od 4 favorita koji oživljavaju esenciju leta. Svež za čula, a blag bojom obezbediće užitke opuštenog, prepoznatljivog  Marc Jacobs stila. Gornje note čine kruška, bergamot i limun, dok bazu čine tikovina, amber i mošus. Aromatičan, citrusan, uz drvenaste note podseća na muški miris, što ga čini veoma postojanim."
+        },
+        {
+            "id": 5,
+            "blogCategory": "Body Care",
+            "blogTitle": "The Body Shop",
+            "slug": "the-body-shop",
+            "postedOn": "February 02, 2021",
+            "author": "Natasa Minic",
+            "blogImage": "IMG_7523-scaled.jpg",
+            "blogText": "Uronite u sveži cvetni miris moringe dok nanosite ovu kupku za tuširanje bez sapuna. Savršena je za čišćenje i čini vašu kožu mekšom i svežom. Bogata pena obezbeđuje potpuno uživanje dok se kupate, čineći da se osećate posebno i slobodno. Formula je potpuno prirodna, sastoji se od ulja semenki ručno ubranih moringa latica, nije lepljiv, brzo upija i ne sadrži sapun. Za potpun ugođaj, koristiti i kremu za telo iz iste kolekcije, koja je veoma lagane teksture, pogodna za sve tipove kože, čak i one najzahtevnije. Proizvod će dugo trajati jer nije potrebna velika količina da bi se celo telo prekrilo ovim svilenkastim mlekom koje će vašoj koži pružiti predivnu završnicu i učiniće je mekom poput svile. Cvetni miris je dugotrajan i izdašan pa će privući pažnju drugih ljudi. Lagan i neverovatno omekšavajući, naš moringa losion je savršen kompliment za vašu negu tela. Vaša koža će biti glatka, nahranjena i svilenkasto mekša na dodir."
+        },
+        {
+            "id": 6,
+            "blogCategory": "Body Care",
+            "blogTitle": "Yves Rocher Monoi de Tahiti",
+            "slug": "yves-rocher",
+            "postedOn": "February 11, 2021",
+            "author": "Natasa Minic",
+            "blogImage": "IMG_7518-scaled.jpg",
+            "blogText": "Otkrijte blistavost kože u trenu, zatvorite oči i udahnite miris Polinezije. Monoi de Tahiti dragocjeno ulje obogaćeno je blistavim, svetlucavim pigmentima, za kožu okupanu suncem. Njegova neodoljiva i nemasna tekstura lako se nanosi na kožu i intenzivno je vlaži i ostavlja egzotične note. Ten je naglašen, a telo i kosa delikatno blistaju. Fini svetlucavi pigmenti pružaju koži delikatan sjaj. Biljni sastojak je cvet Tahiti Monoi koji je veoma intenzivan. Proizvodi su skroz prirodni, bez parabena i bez mineralnih ulja. Takođe, pored svetlucavog postoji i suvo ulje bez sjaja, koje može da se koristi za celo telo i kosu, koje dubinski hrani i neguje. Može da se kosti i kao maska za kosu tako što se natopi kosa, pokrije se kapicom za kosu i pustimo da odstoji 20 minuta. Nakon toga temeljno isprati kosu. Posle takvog tretmana, primećuje se razlika, jer je kosa veoma meka, mirišljava i sjajna. Za veoma suvu kožu može da se koristi tako što se pomeša sa kremom za telo, čak je dobra u kombinaciji se kremom za lice, što će je dodatno obogatiti."
+        },
+        {
+            "id": 7,
+            "blogCategory": "Skin Care",
+            "blogTitle": "Yves Rocher SPF 30+",
+            "slug": "yves-rocher-spf",
+            "postedOn": "July 04, 2021",
+            "author": "Natasa Minic",
+            "blogImage": "IMG_7510-scaled.jpg",
+            "blogText": "Zaglađuje, štiti i vlaži kožu. Koža je zaštićena od UVA / UVB  zraka i protiv znakova starenja uzrokovanih suncem.  Intenzivno hidrira, kožu čini glatkom i zategnutom. Ova formula protiv starenja ne ostavlja ljepljiv trag i učinkovito štiti kožu od oštećenja i znakova starenja uzrokovanih suncem. Nanesite kremu veličine badema na lice i područje vrata. Izbjegavajte područje oko očiju. Ponovo nanesite svaki put prije izlaska na sunce, nakon kupanja, brisanja lica ili znojenja. Smanjenjem količine proizvoda, biće smanjena i količina zaštite. Pretjerano izlaganje suncu, čak i uz korištenje krema za sunčanje je opasno za zdravlje. Zaštita SPF 30+: formula dizajnirana za žene čija koža nije preosetljiva.  Aktivna biljka: Kotrljan – poboljšanje sposobnosti kože da se pripremi i zaštiti je neophodno kako bi iskoristili ono najbolje od sunca. To je uloga poli-aktiva iz biljke kotrljan koji stavlja svu svoju snagu u srce naših stručnih proizvoda za njegu protiv sunca."
+        },
+        {
+            "id": 8,
+            "blogCategory": "Body Care",
+            "blogTitle": "Elizabeth Arden",
+            "slug": "elizabeth-arden",
+            "postedOn": "June 15, 2021",
+            "author": "Natasa Minic",
+            "blogImage": "IMG_7505-scaled.jpg",
+            "blogText": "Mir, spokoj, odmor i osveženje tela i duha reinterpretirano je izvrsnom kompozicijom koja će oduševiti ljubitelje aromatičnih mirisa. Kremasta, lako se razmazuje, ostavlja za sobom mirišljav tragi  uredno negovanu kožu, meku poput svile.  Fokus je na trenutku opuštanja i relaksacije koji je svima neophodan u brzom načinu života i svakodnevici. White Tea nije običan aromatični miris. Sastoji se od brojnih slojeva specifičnih nota i talasa osveženja i revitalizacije. Hladne i pitome note podižu raspoloženje, rasanjuju nas i okružuju prirodnom svežinom, zeleno-belim akordima i senzualnim triom mošusa. Specijalno kombinovanim da se postigne potpuni doživljaj relaksacije. Ambalaža je vrlo primamljiva, ima zaštitni poklopac zahvaljujući kojem krema ostaje sveža kao kad ste prvi put otvorili kremu. Ne ostavlja težak osjećaj na koži, brzo se upije, pogodna je i za vrele letnje dane. “Nežno osunčana koža, čist i hladan čaršav, dobra knjiga i prvi gutljaj čaja” – jednostavna, mala zadovoljstva, intimno poznata. Ona su glavna inspiracija novog mirisa koji može da se nađe i u obliku parfema i kreme za ruke. Kompozicija mirisa je stručno izrađena da naglasi karakteristične arome belog čaja obasjane penušavim italijanskim mandarinama i morskim povetarcima koji sa sobom nose pregršt biljnih i diskretno slankastih aroma. Blaženstvo koje nudi kompozicija ogleda se u spoju zelenih nota paprati, ekstrakta zelenog čaja, absoluta mate iz Paragvaja na krevetu od tri vrste mošusa, drveta Madras i absoluta semena ambrete."
+        },
+        {
+            "id": 9,
+            "blogCategory": "Skin Care",
+            "blogTitle": "La Roche-Posay i termalna voda Byphasse",
+            "slug": "la-roche-posay-and-byphasse",
+            "postedOn": "April 07, 2021",
+            "author": "Natasa Minic",
+            "blogImage": "IMG_7567-scaled.jpg",
+            "blogText": "Penušavi gel za čišćenje masne, osetljive kože. Uklanja nečistoće i prekomerni sebum ostavljajući kožu svežom i čistom. Sa umirujućom termalnom vodom La Roche Posay, ne stvara iritacije na koži. Namenjeno je celoj porodici, od najmlađih do najstarijih članova. Ph vrednost je 5.5, proizvod je bez parabena, boja, alkohola i sapuna, veoma prijatnog mirisa. Posebno odgovara osetljivoj koži koja je sklona iritacijama. Byphasse termalna voda deluje u savršenoj harmoniji sa kožom, namenjena za lice i telo. Svakodnevna nega za sve tipove kože, posebno odgovara osetljivoj i reaktivnoj koži. Hidrira, hrani, umiruje, jača barijeru kože, štiti, oporavlja i izrazito omekšava kožu. Proizvod je 100% prirodan, bogat i aktivan zahvaljujući savršeno izbalansiranoj koncentraciji mineral i njihovoj raznolikosti. Preporučljivo je da se koristi i više puta dnevno, pogotovu pre i posle izlaganja suncu. Možete ga držati u frižideru kako bi imao dodatan efekat rashlađivanja u toplim letnjim danima."
+        },
+        {
+            "id": 10,
+            "blogCategory": "Body Care",
+            "blogTitle": "Nuxe Huile",
+            "slug": "nuxe-huile",
+            "postedOn": "May 01, 2021",
+            "author": "Natasa Minic",
+            "blogImage": "IMG_7560-scaled.jpg",
+            "blogText": "Kultna NUXE nega sa 7 dragocenih i 100 % prirodnih ulja dolazi u novom cvetnom, nežnom i svežem mirisu. Ovo hidratantno ulje zadržava istu teksturu suvog ulja i istu učinkovitost na telu, licu i kosi.  Njegovo antioksidativno delovanje, učinak “štita protiv zagađenja”, te uticaj na smanjenje vidljivosti postojećih i pojave novih strija, čine ga našim svakodnevnim saputnikom. Neponovljiva tekstura suvog ulja otkriva originalni mirisni Nuxe potpis sa svežim cvetnim notama potpuno novi doživljaj užitka. Koristite Čarobno suvo ulje na licu, telu i kosi tokom cele godine i leti i zimi. Na licu – nanesite ga jednom dnevno zaglađujućim pokretima, od središta lica prema krajevima te na dekolte. Može se koristiti samostalno ili nekoliko kapi možete pomešati i s vašom uobičajenom kremom. Na telu – umasirajte ulje na željena područja (prsa, noge, ruke itd.) te preko strija kružnim pokretima. Na kosi – može se koristiti i kao ulje za kosu na dužinama te na vrhovima koliko god je potrebno. Za intenzivan obnavljajući tretman, nanesite jednom do dva puta nedeljno masku na kosu 10 minuta pre šamponiranja. Glavni aktivni sastojci prirodnog porekla sa 7  dragocenih ulja su: hidratantno Tsubaki ulje, obnavljajuće arganovo ulje, hranljivo ulje makadamije, ulje borača za zaglađivanje, hidratantno ulje kamelije, ulje lešnika za zaštitu kao i ulje slatkog badema za omekšavanje. Ne sadrži sastojake životinjskog porekla. Cvetni i nežni miris s koricom grejpa, magnolije i mošusa. Sadrži 96,9% prirodnih sastojaka."
+        },
+        {
+            "id": 11,
+            "blogCategory": "Skin Care",
+            "blogTitle": "Dr. Hauschka tonik za lice",
+            "slug": "dr-hauschka",
+            "postedOn": "January 06, 2021",
+            "author": "Natasa Minic",
+            "blogImage": "IMG_7551-scaled.jpg",
+            "blogText": "Dr.Hauschka tonik za lice special namenjen je masnoj i nečistoj koži sklonoj upalama, a sadrži ekstrakte zečje dateline, nevena, dragoljuba, kore divljeg kestena, ehinacee, hamamelisa i bele rade. Ova blagotvorna nega umiruje kožu. Preporuka za korišćenje: Naprskati na očišćeno lice ujutro i uveče, sačekati da lice upije proizvod i zatim nastaviti sa uobičajnom negom. Proizvod je potpuno prirodan, cena je malo veća, ali potpuno opravdava ovaj brendirani proizvod koji će Vam pružiti odgovarajuću negu i učiniti da se osećate čisto i zaglađeno."
+        }
+    
+    ]
+}
+

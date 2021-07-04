@@ -1,5 +1,6 @@
 import React from 'react';
 import './style.css';
+import Card from '../UI/Card';
 
 /**
 * @author
@@ -8,9 +9,9 @@ import './style.css';
 
 const Sidebar = (props) => {
   return(
-    <div className="sidebar">
-    Side
-  </div>
+    <Card style={{width:'27%', background:'white', borderRadius:'20px', borderStyle:'ridge'}}> 
+      Sidebar
+    </Card>
    )
 
  }
