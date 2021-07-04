@@ -3,14 +3,28 @@ import './App.css';
 import Home from './containers/Home';
 import Header from './components/Header'; //heder da bude na svim stranicama
 import Hero from './components/Hero';
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import Contact from './containers/Contact';
+import Post from './containers/Post';
+
+//Route se koristi u Router-u
+//exact component da se ne bi Home prikazivao na /contact ruti
 
 function App() { //Početna stranica
   return (
+    <Router>
     <div className="App">
       <Header/>
       <Hero/>
-      <Home/>
+
+      <Route path="/" exact component = {Home} /> 
+      <Route path="/contact" component = {Contact} /> 
+      <Route path="/post" component = {Post} /> 
+
+
+      
     </div>
+    </Router>
   );
 }
 
