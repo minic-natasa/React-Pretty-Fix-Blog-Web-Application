@@ -3,6 +3,7 @@ import './style.css';
 import Card from '../UI/Card';
 import blogPost from '../../data/blog.json';
 
+
 /**
 * @author
 * @function BlogPost
@@ -46,7 +47,7 @@ const BlogPost = (props) => {
       </div>
 
       <div className = "blogPostImageContainer">
-      <img src={require('../../images/' + post.blogImage)} alt="Post Image" />
+      <img src={require('../../images/' + post.blogImage).default} alt="Post Image" />
       </div>
 
       <div className = "blogPostContent">
