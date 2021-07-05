@@ -1,7 +1,7 @@
-import React from 'react';
+import React, {useState, useEffect} from 'react';
 import './style.css';
 import Card from '../UI/Card';
-import img from '../../images/IMG_7523-scaled.jpg'
+import blogPost from '../../data/blog.json';
 
 /**
 * @author
@@ -11,6 +11,27 @@ import img from '../../images/IMG_7523-scaled.jpg'
 //Card koristimo više puta, pa stil kartice menjamo direktno za svaku
 
 const BlogPost = (props) => {
+
+  const [post, setPost] = useState({
+    id: "" ,
+    blogCategory: "" ,
+    blogTitle : "" ,
+    postedOn: "" ,
+    author: "" ,
+    blogImage: "" ,
+    blogText: ""
+});
+  const [postId, setPostId] = useState('');
+  
+  useEffect(() => {
+    const postId = props.match.params.postId; //uzimamo id objave
+    const post = blogPost.data.find(post => post.id == postId); //blogPost je array
+    setPost(post);
+    setPostId(postId);
+  }, [post, props.match.params.postId]);
+
+  if(post.blogImage == "") return null;
+
   return(
 
     <div className = "blogPostContainer">
@@ -18,14 +39,19 @@ const BlogPost = (props) => {
     <Card style={{background: '#fd88ac'}}> 
       <div className = "blogPostHeader">
 
-        <span className = "blogPostCategory">Span</span>
-        <h1 className = "blogPostTitle">Naslov</h1>
-        <span className = "blogPostPostedBy">posted on bla bla</span>
+        <span className = "blogPostCategory">{post.blogCategory}</span>
+        <h1 className = "blogPostTitle">{post.blogTitle}</h1>
+        <span className = "blogPostPostedBy">posted on {post.postedOn} by {post.author} </span>
 
       </div>
 
       <div className = "blogPostImageContainer">
-        <img className="blogPostImageContainer" src={img} alt="Post image" />
+      <img src={require('../../images/' + post.blogImage)} alt="Post Image" />
+      </div>
+
+      <div className = "blogPostContent">
+         <h3>{post.blogTitle}</h3>
+         <p>{post.blogText}</p>
       </div>
 
     </Card>

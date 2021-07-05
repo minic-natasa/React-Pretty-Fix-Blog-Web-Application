@@ -12,9 +12,13 @@ import './style.css';
 //className radi samo sa divom, ne i kad stavimo <Card className="ime">
 
 const Post = (props) => {
+
+
+  console.log(props);
+
   return(
     <section className="container">
-     <BlogPost/>
+     <BlogPost {...props} />
      <Sidebar/>
     </section>
    )
