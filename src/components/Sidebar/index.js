@@ -18,12 +18,14 @@ const Sidebar = (props) => {
   useEffect(() => {
     const posts = blogPost.data;
     setPosts(posts);
-}, [posts]);
+}, [posts]); //posts prosleđujemo kao niz ( final argument )
 
 
   return(
 
-    <div className = "sidebarContainer">
+    <div className = "sidebarContainer" style = {{
+        width: props.width 
+    }}>
 
       <Card style={{background:'white', borderRadius:'20px', border:'none', padding: '10px 2px', marginBottom: '20px',  boxSizing: 'border-box'}}> 
         
@@ -60,7 +62,7 @@ const Sidebar = (props) => {
           {
             posts.map(post =>{
               return(
-                <NavLink to={`/post/${post.id}`}>
+                <NavLink key = {post.id} to={`/post/${post.id}`}> 
                 <div className = "recentPost">
                 <h3>{post.blogTitle}</h3>
                 <span>{post.postedOn}</span>         
@@ -76,6 +78,7 @@ const Sidebar = (props) => {
 
     </div>
 
+  //moramo da damo nesto unique komponenti navlink - koristimo key 
     
    )
 
