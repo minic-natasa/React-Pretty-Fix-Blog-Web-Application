@@ -57,14 +57,7 @@ const Home = props => {
         <div>
             <Card style = {{margin: '20px 0'}}>
 
-            <ImageGallery
-                        largeWidth = "70%"
-                        smallWidth = "30%"
-                        sideImageHeight = {sideImageHeight}
-                        galleryStyle = {galleryStyle}
-                        imagesArray = {imgArray}
-                        
-                    />
+           
 
                 
                
@@ -76,11 +69,6 @@ const Home = props => {
                     <RecentPosts style = {{width:'70%', color: '#ff05c0'}}/>
                 </Layout>
              
-           
-
-            
-
-           
 
         </div>
     );

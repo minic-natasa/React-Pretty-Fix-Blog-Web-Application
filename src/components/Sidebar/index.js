@@ -30,7 +30,7 @@ const Sidebar = (props) => {
       <Card style={{background:'white', borderRadius:'20px', border:'none', padding: '10px 2px', marginBottom: '20px',  boxSizing: 'border-box'}}> 
         
         <div className = "cardHeader">
-          <span>About Us</span>
+          <span className = "sidebarTitle">About Us</span>
           <div className = "aboutUsImageContainer">
             <img src={logopic} alt = "Logo"></img>
           </div>
@@ -46,7 +46,12 @@ const Sidebar = (props) => {
         <Card style={{background:'white', borderRadius:'20px', border:'none', padding: '10px',  boxSizing: 'border-box'}}> 
         
         <div className = "cardHeader">
-          <span>Social Network</span>
+          <span className = "sidebarTitle">Categories</span>
+          <ul className = "sidebarList">
+            <li className = "sidebarListItem">Parfumes</li>
+            <li className = "sidebarListItem">Body Care</li>
+            <li className = "sidebarListItem">Skin Care</li>
+          </ul>
         </div>
 
         </Card>
@@ -54,31 +59,22 @@ const Sidebar = (props) => {
         <Card style={{background:'white', borderRadius:'20px', border:'none', padding: '10px',  boxSizing: 'border-box'}}> 
         
         <div className = "cardHeader">
-          <span>Recent Posts</span>
+          <span className = "sidebarTitle">Follow Us</span>
+          <div className = "sidebarSocial">
+          <i className="sidebarIcon fab fa-facebook-square"></i>
+        <i className="sidebarIcon fab fa-instagram-square"></i>
+        <i className="sidebarIcon fab fa-pinterest-square"></i>
+        <i className="sidebarIcon fab fa-twitter-square"></i>
         </div>
-
-        <div className = "recentPosts">
-
-          {
-            posts.map(post =>{
-              return(
-                <NavLink key = {post.id} to={`/post/${post.slug}`}> 
-                <div className = "recentPost">
-                <h3>{post.blogTitle}</h3>
-                <span>{post.postedOn}</span>         
-          </div>
-          </NavLink>
-              );
-            })
-          }
-
         </div>
 
         </Card>
 
+       
+
     </div>
 
-  //moramo da damo nesto unique komponenti navlink - koristimo key 
+  
     
    )
 
