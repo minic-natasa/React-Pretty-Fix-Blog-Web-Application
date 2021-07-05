@@ -2,6 +2,7 @@ import React from 'react';
 import './style.css';
 import Card from '../../components/UI/Card';
 import Sidebar from '../../components/Sidebar';
+import RecentPosts from './RecentPosts';
 
 
 const Home = props => {
@@ -44,24 +45,8 @@ const Home = props => {
             </Card>
 
             <section className = "homeContainer">
-                <div style = {{width: '70%'}}>
-
-                <Card style = {{marginBottom: '20px'}}>
-                Post 1
-            </Card>
-
-            <Card style = {{marginBottom: '20px'}}>
-                Post 2
-            </Card>
-
-            <Card style = {{marginBottom: '20px'}}>
-                Post 3
-            </Card>
-
-                </div>
-
+             <RecentPosts style = {{width:'70%', color: '#ff05c0'}}/>
              <Sidebar/>
-
             </section>
 
             
