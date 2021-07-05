@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import Home from './containers/Home';
-import Header from './components/Header'; //heder da bude na svim stranicama
+import Topbar from './components/Topbar';
 import Hero from './components/Hero';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import Contact from './containers/Contact';
@@ -15,7 +15,8 @@ function App() { //Početna stranica
   return (
     <Router>
     <div className="App">
-      <Header/>
+
+      <Topbar/>
       <Hero/>
 
       <Route path="/" exact component = {Home} /> 
