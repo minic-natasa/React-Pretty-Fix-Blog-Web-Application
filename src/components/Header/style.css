@@ -4,18 +4,3 @@
     margin: 10px 0;
     font-family: 'Zen Loop', cursive;
 }
-
-
-
-.headerMenu a{
-    display: inline-block;
-    margin: 0 10px;
-    text-decoration: none;
-    color: #ff05c0;
-    font-size: 45px;
-    letter-spacing: 1.2px;
-}
-
-.headerMenu a:hover{
-    color: #000000;
-}

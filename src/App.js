@@ -20,7 +20,7 @@ function App() { //Početna stranica
 
       <Route path="/" exact component = {Home} /> 
       <Route path="/contact" component = {Contact} /> 
-      <Route path="/post/:postId" component = {Post} /> 
+      <Route path="/post/:slug" component = {Post} /> 
       <Route path="/about" component = {About} />
 
 

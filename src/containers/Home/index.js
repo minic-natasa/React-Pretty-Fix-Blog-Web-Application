@@ -1,9 +1,44 @@
 import React from 'react';
 import './style.css';
 import Card from '../../components/UI/Card';
-import Sidebar from '../../components/Sidebar';
+import Layout from '../../components/Layout';
 import RecentPosts from './RecentPosts';
+import blogData from '../../data/blog.json';
 
+const SideImage = props => {
+    return(
+        <div style = {{height: `${props.height}px`}}>
+            <img src = {props.src} alt = ""/>
+        </div>
+    );
+}
+
+const ImageGallery = props => (
+    <div className = "galleryPost" style = {props.galleryStyle}>
+
+                <section style = {{width: props.largeWidth}}> 
+                    <div className = "mainImageWrapper">
+                        <img className = "image" src = {require('../../images/' + props.imagesArray[0]).default} alt = ""/>
+                    </div>
+                </section>
+
+                <section className = {"sideImageWrapper"} style = {{ width:props.smallWidth}}> 
+                    <SideImage height = {props.sideImageHeight}
+                    src = {require('../../images/' + props.imagesArray[1]).default}
+                    alt = "" />
+                    
+                    <SideImage height = {props.sideImageHeight}
+                    src = {require('../../images/' + props.imagesArray[2]).default}
+                    alt = "" />
+
+                    <SideImage height = {props.sideImageHeight}
+                    src = {require('../../images/' + props.imagesArray[3]).default}
+                    alt = "" />
+
+                </section>
+
+                </div>
+);
 
 const Home = props => {
 
@@ -15,39 +50,33 @@ const Home = props => {
 
     const sideImageHeight = galleryHeight/3;
 
+    const imgArray = blogData.data.map(post => post.blogImage);
+
 
     return(
         <div>
             <Card style = {{margin: '20px 0'}}>
 
-                <div className = "galleryPost" style = {galleryStyle}>
+            <ImageGallery
+                        largeWidth = "70%"
+                        smallWidth = "30%"
+                        sideImageHeight = {sideImageHeight}
+                        galleryStyle = {galleryStyle}
+                        imagesArray = {imgArray}
+                        
+                    />
 
-                <section style = {{width: '70%'}}> 
-                    <div className = "">
-                        <img className = "image" src = "https://www.planetware.com/wpimages/2020/02/france-in-pictures-beautiful-places-to-photograph-eiffel-tower.jpg" alt = ""/>
-                    </div>
-                </section>
-
-                <section className = {"sideImageWrapper"} style = {{ width:'30%'}}> 
-                    <div style = {{height: `${sideImageHeight}px`}}>
-                        <img src = "https://www.planetware.com/wpimages/2020/02/france-in-pictures-beautiful-places-to-photograph-eiffel-tower.jpg" alt = ""/>
-                    </div>
-                    <div style = {{height: `${sideImageHeight}px`}}>
-                        <img src = "https://www.planetware.com/wpimages/2020/02/france-in-pictures-beautiful-places-to-photograph-eiffel-tower.jpg" alt = ""/>
-                    </div>
-                    <div style = {{height: `${sideImageHeight}px`}}>
-                        <img src = "https://www.planetware.com/wpimages/2020/02/france-in-pictures-beautiful-places-to-photograph-eiffel-tower.jpg" alt = ""/>
-                    </div>
-                </section>
-
-                </div>
+                
                
             </Card>
 
-            <section className = "homeContainer">
-             <RecentPosts style = {{width:'70%', color: '#ff05c0'}}/>
-             <Sidebar/>
-            </section>
+            
+
+                <Layout>
+                    <RecentPosts style = {{width:'70%', color: '#ff05c0'}}/>
+                </Layout>
+             
+           
 
             
 

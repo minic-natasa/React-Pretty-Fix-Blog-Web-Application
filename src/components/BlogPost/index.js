@@ -14,22 +14,23 @@ import blogPost from '../../data/blog.json';
 const BlogPost = (props) => {
 
   const [post, setPost] = useState({
-    id: "" ,
-    blogCategory: "" ,
-    blogTitle : "" ,
-    postedOn: "" ,
-    author: "" ,
-    blogImage: "" ,
-    blogText: ""
-});
-  const [postId, setPostId] = useState('');
+      id: "" ,
+      blogCategory: "" ,
+      blogTitle : "" ,
+      postedOn: "" ,
+      author: "" ,
+      blogImage: "" ,
+      blogText: ""
+  });
+  const [slug, setSlug] = useState('');
+  
   
   useEffect(() => {
-    const postId = props.match.params.postId; //uzimamo id objave
-    const post = blogPost.data.find(post => post.id == postId); //blogPost je array
-    setPost(post);
-    setPostId(postId);
-  }, [post, props.match.params.postId]);
+      const slug = props.match.params.slug;
+      const post = blogPost.data.find(post => post.slug == slug);
+      setPost(post);
+      setSlug(slug)
+  }, [post, props.match.params.slug]);
 
   if(post.blogImage == "") return null;
 
@@ -37,7 +38,7 @@ const BlogPost = (props) => {
 
     <div className = "blogPostContainer">
 
-    <Card style={{background: '#fd88ac'}}> 
+    <Card style={{background: '#fff'}}> 
       <div className = "blogPostHeader">
 
         <span className = "blogPostCategory">{post.blogCategory}</span>
