@@ -4,6 +4,9 @@ import Card from '../../components/UI/Card';
 import Layout from '../../components/Layout';
 import RecentPosts from './RecentPosts';
 import blogData from '../../data/blog.json';
+import SinglePost from '../SinglePost';
+import Write from '../Write';
+
 
 const SideImage = props => {
     return(
@@ -68,6 +71,10 @@ const Home = props => {
                 <Layout>
                     <RecentPosts style = {{width:'70%', color: '#ff05c0'}}/>
                 </Layout>
+
+                
+        <SinglePost/>
+        <Write/>
              
 
         </div>
