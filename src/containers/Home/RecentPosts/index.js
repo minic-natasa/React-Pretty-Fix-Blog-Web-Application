@@ -36,8 +36,8 @@ const RecentPosts = (props) => {
               return(
                 <NavLink key = {post.id} to={`/post/${post.slug}`}> 
                 <div className = "recentPost">
-                <h3>{post.blogTitle}</h3>
-                <span>{post.postedOn}</span>         
+                <h3 className = "title">{post.blogTitle}</h3>
+                <span className = "date">{post.postedOn}</span>         
           </div>
           </NavLink> //moramo da damo nesto unique komponenti navlink - koristimo key 
               );

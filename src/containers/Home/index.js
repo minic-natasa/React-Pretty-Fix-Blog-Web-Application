@@ -3,9 +3,7 @@ import './style.css';
 import Card from '../../components/UI/Card';
 import Layout from '../../components/Layout';
 import RecentPosts from './RecentPosts';
-import blogPost from '../../data/blog.json';
-import { NavLink } from 'react-router-dom';import Hero from '../../components/Hero';
-import BlogPost from '../../components/BlogPost';
+import Hero from '../../components/Hero';
 
 
 const Home = (props) => {

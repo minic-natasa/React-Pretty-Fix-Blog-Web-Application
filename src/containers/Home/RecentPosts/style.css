@@ -7,7 +7,7 @@
 
 .cardHeader{
     text-transform: uppercase;
-    font-size: 23px;
+    font-size: 31px;
     text-align: center;
     box-sizing: border-box;
     letter-spacing: 2px;
@@ -18,24 +18,27 @@
 .recentPosts{
     padding: 20px 10px;
     text-align: center;
-    font-size: 55px;
     font-family: 'Josefin Sans', sans-serif;
-    text-decoration: none;
 }
 .recentPost{
     border-bottom: 1px solid #eee;
-    margin-bottom: 10px;
-}
-.recentPost h3{
-    color: #6c6c6c;
-    letter-spacing: 1px;
-    font-size: 14px;
-    font-weight: 500;
-    margin: 0;
+    margin-bottom: 25px;
+    margin-top: 10px;
 }
 
-.recentPost span{
-    font-size: 10px;
+
+
+.title{
+    color: #222;
+    font-size: 21px;
+    letter-spacing: 1px;
     font-weight: 400;
-    color: #6c6c66;
+    margin: 0;
+    padding: 3px 3px;
+}
+
+.date{
+    color: #222;
+    font-weight: 400;
+    padding: 3px 3px;
 }
