@@ -4,7 +4,7 @@ import Card from '../../components/UI/Card';
 import Layout from '../../components/Layout';
 import RecentPosts from './RecentPosts';
 import blogData from '../../data/blog.json';
-import Settings from '../Settings';
+import Hero from '../../components/Hero';
 
 
 const SideImage = props => {
@@ -57,22 +57,15 @@ const Home = props => {
 
     return(
         <div>
-            <Card style = {{margin: '20px 0'}}>
-
-           
-
-                
-               
+            <Card style = {{margin: '20px 0'}}> 
+            <Hero/>
             </Card>
-
-            
 
                 <Layout>
                     <RecentPosts style = {{width:'70%', color: '#ff05c0'}}/>
                 </Layout>
 
-                
-        <Settings/>
+        
              
 
         </div>
