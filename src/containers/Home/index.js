@@ -4,8 +4,7 @@ import Card from '../../components/UI/Card';
 import Layout from '../../components/Layout';
 import RecentPosts from './RecentPosts';
 import blogData from '../../data/blog.json';
-import SinglePost from '../SinglePost';
-import Write from '../Write';
+import Settings from '../Settings';
 
 
 const SideImage = props => {
@@ -73,8 +72,7 @@ const Home = props => {
                 </Layout>
 
                 
-        <SinglePost/>
-        <Write/>
+        <Settings/>
              
 
         </div>
