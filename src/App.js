@@ -9,7 +9,7 @@ import Register from './containers/Register';
 import Login from './containers/Login';
 import Settings from './containers/Settings';
 import Write from './containers/Write';
-import SinglePost from './containers/SinglePost';
+import Post from './containers/Post';
 
 
 //Route se koristi u Router-u
@@ -25,44 +25,16 @@ function App() { //Početna stranica
 
       <Topbar/>
       
-      <Switch>
-        <Route exact path="/">
-          <Home/>
-        </Route>
-
-        <Route path="/register">
-          {user ? <Home/> : <Register/>}
-        </Route>
-
-        <Route path="/login">
-        {user ? <Home/> : <Login/>}
-        </Route>
-
-        <Route path="/settings">
-        {user ? <Settings/> : <Register/>}
-        </Route>
-
-        <Route path="/about">
-          <About/>
-        </Route>
-
-        <Route path="/contact">
-          <Contact/>
-        </Route>
-
-        <Route path="/write">
-          {user ? <Write/> : <Register/>}
-        </Route>
-
-        <Route path="/post/:postId">
-          <SinglePost/>
-        </Route>
-
-
-      
-      </Switch>
-     
-      
+        <Route path="/" exact component = {Home}/>
+        <Route path="/register" exact component = {Register}/>
+        <Route path="/login" exact component = {Login}/>
+        <Route path="/settings" exact component = {Settings}/>
+        <Route path="/about" exact component = {About}/>
+        <Route path="/contact" exact component = {Contact}/>
+        <Route path="/write" exact component = {Write}/>
+        <Route path="/post/:slug" exact component = {Post}/>
+        
+    
 
 
 

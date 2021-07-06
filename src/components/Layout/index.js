@@ -15,9 +15,6 @@ const Layout = (props) => {
         <Sidebar/>
     </div>
 
-    <div className = "foot">
-      <h1>Footer</h1>
-    </div>
     </div>
    )
 

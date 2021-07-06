@@ -1,5 +1,7 @@
 import React from 'react';
 import './style.css';
+import Card from '../../components/UI/Card';
+import Hero from '../../components/Hero';
 
 /**
 * @author
@@ -7,10 +9,16 @@ import './style.css';
 **/
 
 const Contact = (props) => {
-  return(
+ return(
     <div>
-        Contact
-    </div>
+            <Card style = {{margin: '20px 0'}}> 
+            <Hero/>
+            </Card>
+
+               <h1 className = "text">If you want to contact us, feel free to write us on prettyfix@gmail.com</h1>
+
+
+        </div>
    )
 
  }

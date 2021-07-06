@@ -1,6 +1,6 @@
 import React from 'react';
 import './style.css';
-import Sidebar from '../../components/Sidebar';
+import Layout from '../../components/Layout';
 import Single from '../../components/Single';
 
 /**
@@ -9,11 +9,17 @@ import Single from '../../components/Single';
 **/
 
 const SinglePost = (props) => {
+
+  console.log(props);
+  
   return(
-    <div className = "singlePost">
-        <Single/>
-        <Sidebar/>
-    </div>
+
+    <section className="singlePost">
+    <Layout>
+    <Single {...props} />
+    </Layout>
+  </section>
+    
    )
   }
 

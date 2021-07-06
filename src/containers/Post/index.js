@@ -1,29 +1,37 @@
 import React from 'react';
+import './style.css';
 import BlogPost from '../../components/BlogPost';
 import Layout from '../../components/Layout';
-import './style.css';
+
+import { Link } from "react-router-dom";
 
 /**
 * @author
 * @function Post
 **/
 
-//Levo da bude glavni post, a desno side bar (Side bar je reuseble komponenta)
-//className radi samo sa divom, ne i kad stavimo <Card className="ime">
-
 const Post = (props) => {
 
+    console.log(props);
 
-  console.log(props);
 
   return(
-    <section className="container">
-      <Layout>
-      <BlogPost {...props} />
-      </Layout>
-    </section>
+    <div className="postPage">
+        <Layout>
+          <BlogPost {...props} />
+        </Layout>
+
+        <button className="backButton">
+      <Link className = "link" to = "/"> 
+        Get Back
+      </Link>
+      </button>
+
+        </div>
+
+        
    )
 
  }
 
-export default Post
+export default Post;

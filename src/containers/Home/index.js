@@ -1,58 +1,16 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import './style.css';
 import Card from '../../components/UI/Card';
 import Layout from '../../components/Layout';
 import RecentPosts from './RecentPosts';
-import blogData from '../../data/blog.json';
-import Hero from '../../components/Hero';
+import blogPost from '../../data/blog.json';
+import { NavLink } from 'react-router-dom';import Hero from '../../components/Hero';
+import BlogPost from '../../components/BlogPost';
 
 
-const SideImage = props => {
-    return(
-        <div style = {{height: `${props.height}px`}}>
-            <img src = {props.src} alt = ""/>
-        </div>
-    );
-}
+const Home = (props) => {
 
-const ImageGallery = props => (
-    <div className = "galleryPost" style = {props.galleryStyle}>
-
-                <section style = {{width: props.largeWidth}}> 
-                    <div className = "mainImageWrapper">
-                        <img className = "image" src = {require('../../images/' + props.imagesArray[0]).default} alt = ""/>
-                    </div>
-                </section>
-
-                <section className = {"sideImageWrapper"} style = {{ width:props.smallWidth}}> 
-                    <SideImage height = {props.sideImageHeight}
-                    src = {require('../../images/' + props.imagesArray[1]).default}
-                    alt = "" />
-                    
-                    <SideImage height = {props.sideImageHeight}
-                    src = {require('../../images/' + props.imagesArray[2]).default}
-                    alt = "" />
-
-                    <SideImage height = {props.sideImageHeight}
-                    src = {require('../../images/' + props.imagesArray[3]).default}
-                    alt = "" />
-
-                </section>
-
-                </div>
-);
-
-const Home = props => {
-
-    const galleryHeight = 450;
-    const galleryStyle = {
-        height: galleryHeight + 'px',
-        overflow: 'hidden'
-    }
-
-    const sideImageHeight = galleryHeight/3;
-
-    const imgArray = blogData.data.map(post => post.blogImage);
+    console.log(props);
 
 
     return(
@@ -62,11 +20,8 @@ const Home = props => {
             </Card>
 
                 <Layout>
-                    <RecentPosts style = {{width:'70%', color: '#ff05c0'}}/>
+                    <RecentPosts style = {{width: '70%'}}/>
                 </Layout>
-
-        
-             
 
         </div>
     );

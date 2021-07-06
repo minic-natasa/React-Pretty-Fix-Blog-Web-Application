@@ -8,7 +8,7 @@ import './style.css';
 **/
 
 const Topbar = (props) => {
-  const user = true;
+  const user = false;
   return(
     <div className = "top">
         <div className = "topLeft">
@@ -29,7 +29,10 @@ const Topbar = (props) => {
                 <Link className = "link" to = "/contact" >CONTACT</Link></li>
                 <li className="topListItem">
                 <Link className = "link" to = "/write" >WRITE</Link></li>
+                
+
                 <li className="topListItem">
+                
                 {user && "LOGOUT" }</li>
             </ul>
         </div>
@@ -49,9 +52,13 @@ const Topbar = (props) => {
                 
                 <li className="topListItem">
                 <Link className = "link" to = "/register" >REGISTER</Link></li>
-                </ul>
+                
+
+                <li className="topListItem">
+                <Link className = "link" to = "/settings" >SETTINGS</Link></li>
+              </ul>
             )}
-            <i className="topSearchIcon fas fa-search"></i>
+            
         </div>
     </div>
    )
