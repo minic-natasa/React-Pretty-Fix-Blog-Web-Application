@@ -1,4 +1,4 @@
-Pretty Fix je React.js web aplikacija koja funkcioniše kao platforma za blogovanje. Aplikacija omogućava korisnicima da se registruju i uloguju, kreiraju, ažuriraju i brišu blog postove nakon povezivanja sa bazom podataka. Pored početne stranice koja se automatski prikazuje prilikom pristupa, aplikacija takođe sadrži stranice 'O nama' i 'Kontakt'.
+Pretty Fix je React web aplikacija koja funkcioniše kao platforma za blogovanje. Aplikacija omogućava korisnicima da se registruju i uloguju, kreiraju, ažuriraju i brišu blog postove nakon povezivanja sa bazom podataka. Pored početne stranice koja se automatski prikazuje prilikom pristupa, aplikacija takođe sadrži stranice 'O nama' i 'Kontakt'.
 
 **Funkcionalnosti**
 Registracija i prijava: Korisnici mogu kreirati svoj nalog i ulogovati se kako bi pristupili personalizovanim funkcijama.
@@ -13,13 +13,13 @@ About Us (O nama): Nudi informacije o blog platformi, njenim kreatorima i ciljev
 Contact (Kontakt): Omogućava posetiocima da pošalju email preko integrisane kontakt forme.
 
 **Tehnološki Stack**
-React.js: Koristi se za izgradnju korisničkog interfejsa, obezbeđujući brzu i interaktivnu korisničku iskustvo.
+React: Koristi se za izgradnju korisničkog interfejsa, obezbeđujući brzu i interaktivnu korisničku iskustvo.
 Baza podataka: Integracija sa bazom podataka omogućava skladištenje i manipulaciju podacima objava i korisničkih profila.
 Autentifikacija: Sistem za registraciju i prijavu koristi standardne metode autentifikacije za zaštitu korisničkih podataka.
 
 _______________________
 
-Pretty Fix is React.js web application that functions as a blogging platform. The application allows users to register and log in, create, update, and delete blog posts after connecting to a database. Besides the home page which is automatically displayed upon access, the application also includes 'About Us' and 'Contact' pages.
+Pretty Fix is React web application that functions as a blogging platform. The application allows users to register and log in, create, update, and delete blog posts after connecting to a database. Besides the home page which is automatically displayed upon access, the application also includes 'About Us' and 'Contact' pages.
 
 **Features**
 Registration and Login: Users can create an account and log in to access personalized features.
@@ -34,6 +34,6 @@ About Us: Provides information about the blog platform, its creators, and its ob
 Contact: Enables visitors to send an email through an integrated contact form.
 
 **Technology Stack**
-React.js: Used for building the user interface, providing a fast and interactive user experience.
+React: Used for building the user interface, providing a fast and interactive user experience.
 Database: Integration with a database allows for storing and manipulating data on posts and user profiles.
 Authentication: The registration and login system uses standard authentication methods to protect user data.
