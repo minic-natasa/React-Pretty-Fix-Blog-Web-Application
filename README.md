@@ -1,70 +1,39 @@
-# Getting Started with Create React App
+Pretty Fix je React.js web aplikacija koja funkcioniše kao platforma za blogovanje. Aplikacija omogućava korisnicima da se registruju i uloguju, kreiraju, ažuriraju i brišu blog postove nakon povezivanja sa bazom podataka. Pored početne stranice koja se automatski prikazuje prilikom pristupa, aplikacija takođe sadrži stranice 'O nama' i 'Kontakt'.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Funkcionalnosti**
+Registracija i prijava: Korisnici mogu kreirati svoj nalog i ulogovati se kako bi pristupili personalizovanim funkcijama.
+Kreiranje, ažuriranje i brisanje objava: Nakon prijave, korisnici mogu pisati nove objave, ažurirati ih ili ih obrisati.
+Navigacija: Početna stranica prikazuje listu svih objava. Klikom na bilo koju objavu, korisnik se preusmerava na stranicu te objave, gde može pročitati celokupan sadržaj. Postoji dugme za povratak na prethodnu stranicu.
+Sidebar: Sadrži osnovne informacije o korisniku, kategorije dostupne na blogu, kao i linkove ka društvenim mrežama.
+Settings stranica: Omogućava korisnicima da izmene svoje korisničke profile.
 
-## Available Scripts
+**Stranice**
+Home Page (Početna strana): Prikazuje sve objave koje su korisnici kreirali. Svaka objava može se kliknuti kako bi se otvorila detaljnija Post stranica za tu objavu.
+About Us (O nama): Nudi informacije o blog platformi, njenim kreatorima i ciljevima.
+Contact (Kontakt): Omogućava posetiocima da pošalju email preko integrisane kontakt forme.
 
-In the project directory, you can run:
+**Tehnološki Stack**
+React.js: Koristi se za izgradnju korisničkog interfejsa, obezbeđujući brzu i interaktivnu korisničku iskustvo.
+Baza podataka: Integracija sa bazom podataka omogućava skladištenje i manipulaciju podacima objava i korisničkih profila.
+Autentifikacija: Sistem za registraciju i prijavu koristi standardne metode autentifikacije za zaštitu korisničkih podataka.
 
-### `npm start`
+_______________________
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Pretty Fix is React.js web application that functions as a blogging platform. The application allows users to register and log in, create, update, and delete blog posts after connecting to a database. Besides the home page which is automatically displayed upon access, the application also includes 'About Us' and 'Contact' pages.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+**Features**
+Registration and Login: Users can create an account and log in to access personalized features.
+Creating, Updating, and Deleting Posts: Once logged in, users can write new posts, update them, or delete them.
+Navigation: The home page displays a list of all posts. Clicking on any post redirects the user to that post's page, where the full content can be read. There is a button to return to the previous page.
+Sidebar: Contains basic user information, categories available on the blog, and links to social networks.
+Settings Page: Allows users to modify their user profiles.
 
-### `npm test`
+**Pages**
+Home Page: Displays all the posts created by users. Each post can be clicked to open a more detailed Post page for that post.
+About Us: Provides information about the blog platform, its creators, and its objectives.
+Contact: Enables visitors to send an email through an integrated contact form.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**Technology Stack**
+React.js: Used for building the user interface, providing a fast and interactive user experience.
+Database: Integration with a database allows for storing and manipulating data on posts and user profiles.
+Authentication: The registration and login system uses standard authentication methods to protect user data.
